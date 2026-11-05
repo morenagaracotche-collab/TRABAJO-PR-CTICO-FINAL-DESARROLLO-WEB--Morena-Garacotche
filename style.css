@@ -1,0 +1,132 @@
+body {
+  font-family: "Trebuchet MS", Verdana, sans-serif;
+  background-color: #F2F2F5;
+  color: #1C1C28;
+  margin: 0;
+  line-height: 1.6;
+}
+
+h2, h3 {
+  font-family: Georgia, "Times New Roman", serif;
+}
+p, li {
+  font-size: 1rem;
+  line-height: 1.7;
+}
+ 
+h2 {
+  color: #D81B60;
+  font-size: 2rem;
+  border-bottom: 3px double #D81B60;
+  padding-bottom: 6px;
+  margin-top: 30px;
+}
+h3 {
+  color: #2E3A59;
+  font-size: 1.4rem;
+  margin-top: 10px;
+}
+ 
+header {
+  background-color: #1C1C28;
+  color: #FFFFFF;
+  padding: 1% 5%;
+}
+header h1 {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 2.4rem;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  text-shadow: 2px 2px 0px #D81B60;
+  margin: 0;
+}
+header p {
+  margin: 0;
+  font-style: italic;
+  word-spacing: 3px;
+}
+
+nav {
+  background-color: #2E3A59;
+  padding: 0 5%;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+nav ul li {
+  float: left;
+}
+nav ul li a {
+  display: block;
+  padding: 14px 26px;
+  color: #FFFFFF;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  background-color: #D81B60;
+}
+
+
+.tarjeta {
+  float: left;
+  width: 25%;
+  margin: 1.5%;
+  padding: 2%;
+  background-color: #FFFFFF;
+  border: 2px solid #2E3A59;
+  border-radius: 10px;
+}
+.tarjeta:hover {
+  border-color: #D81B60;
+}
+.tarjeta img {
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+}
+.tarjeta h3 {
+  text-align: center;
+}
+.precio {
+  color: #D81B60;
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+ 
+.boton, button {
+  display: inline-block;
+  background-color: #2E3A59;
+  color: #FFFFFF;
+  padding: 10px 22px;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-weight: bold;
+  text-decoration: none;
+}
+.boton:hover, button:hover {
+  background-color: #D81B60;
+}
+ 
+
+.limpiar {
+  clear: both;
+}
+ 
+footer {
+  clear: both;
+  background-color: #1C1C28;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 2% 5%;
+}
+footer p {
+  margin: 4px 0;
+}
+footer a {
+  color: #FFFFFF;
+}
